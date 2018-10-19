@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px"
+	android:columnCount="3"
+	android:rowCount="6"
+	android:background="#ff3949ab">
+	<ImageView
+		android:src="@drawable/samuel"
+		android:id="@+id/imageView1"
+		android:layout_columnSpan="3"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="25dp"
+		android:scaleType="fitXY"
+		android:minHeight="98dp"
+		android:minWidth="175dp" />
+	<Button
+		android:text="Did I break your"
+		android:id="@+id/btn1"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:layout_marginLeft="55dp"
+		android:layout_marginTop="25dp"
+		android:contextClickable="false"
+		android:elegantTextHeight="false"
+		android:maxWidth="65dp" />
+	<Button
+		android:text="Allow me to retort"
+		android:id="@+id/btn2"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:layout_marginTop="25dp"
+		android:maxWidth="65dp" />
+	<Button
+		android:text="English do you speak it"
+		android:id="@+id/btn3"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:layout_marginTop="25dp"
+		android:maxWidth="65dp" />
+	<Button
+		android:text="Does he look like a bitch"
+		android:id="@+id/btn4"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:layout_marginLeft="55dp"
+		android:maxWidth="65dp" />
+	<Button
+		android:id="@+id/btn5"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:maxWidth="65dp"
+		android:text="Fd up repugnant shit" />
+	<Button
+		android:text="Fonzie"
+		android:id="@+id/btn6"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:maxWidth="65dp" />
+	<Button
+		android:text="Hamburgers"
+		android:id="@+id/btn7"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:layout_marginLeft="55dp"
+		android:maxWidth="65dp" />
+	<Button
+		android:text="I have had Enough"
+		android:id="@+id/btn8"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:maxWidth="65dp" />
+	<Button
+		android:text="Im a mormon"
+		android:id="@+id/btn9"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:maxWidth="65dp" />
+	<Button
+		android:text="One of us made error"
+		android:id="@+id/btn10"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:layout_marginLeft="55dp"
+		android:maxWidth="65dp" />
+	<Button
+		android:text="Say what again"
+		android:id="@+id/btn11"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:maxWidth="65dp" />
+	<Button
+		android:text="Tasty beverage"
+		android:id="@+id/btn12"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:maxWidth="65dp" />
+	<Button
+		android:text="What country you from"
+		android:id="@+id/btn13"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:layout_marginLeft="50dp"
+		android:maxWidth="65dp" />
+	<Button
+		android:text="You can't say no"
+		android:id="@+id/btn14"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:maxWidth="65dp" />
+	<Button
+		android:text="Your ass aint talking your way"
+		android:id="@+id/btn15"
+		android:textAlignment="gravity"
+		android:textAllCaps="false"
+		android:layout_margin="10dp"
+		android:maxWidth="65dp"
+		android:contextClickable="false" />
+	<Button
+		android:text="Main Menu"
+		android:id="@+id/btnMain"
+		android:layout_columnSpan="3"
+		android:layout_gravity="center_horizontal" />
+	
+</GridLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:columnCount="3"
+    android:rowCount="5"
+    android:background="#ffc62828">
+    <ImageView
+        android:src="@drawable/main_spacey"
+        android:id="@+id/imageView1"
+        android:layout_columnSpan="3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:scaleType="fitXY"
+        android:minWidth="300dp"
+        android:minHeight="168dp" />
+    <Button
+        android:text="Evidence ususal suspects"
+        android:id="@+id/btn1"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="25dp"
+        android:contextClickable="false"
+        android:elegantTextHeight="false"
+        android:maxWidth="65dp" />
+    <Button
+        android:text="Favor swimming with sharks"
+        android:id="@+id/btn2"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_marginTop="25dp"
+        android:maxWidth="65dp" />
+    <Button
+        android:text="Gone usual suspects"
+        android:id="@+id/btn3"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_marginTop="25dp"
+        android:maxWidth="65dp" />
+    <Button
+        android:text="Kevin Spacey doing Walken as Han Solo"
+        android:id="@+id/btn4"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="55dp"
+        android:maxWidth="65dp" />
+    <Button
+        android:id="@+id/btn5"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:maxWidth="65dp"
+        android:text="Lunch glengarry glen ross" />
+    <Button
+        android:text="My life american beauty"
+        android:id="@+id/btn6"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:maxWidth="65dp" />
+    <Button
+        android:text="Pontiac firebird american beauty"
+        android:id="@+id/btn7"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="55dp"
+        android:maxWidth="65dp" />
+    <Button
+        android:text="So much beauty american beauty"
+        android:id="@+id/btn8"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:maxWidth="65dp" />
+    <Button
+        android:text="Stupid a bugs life"
+        android:id="@+id/btn9"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:maxWidth="65dp" />
+    <Button
+        android:text="Tense usual suspects"
+        android:id="@+id/btn10"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="55dp"
+        android:maxWidth="65dp" />
+    <Button
+        android:text="Trick usual suspects"
+        android:id="@+id/btn11"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:maxWidth="65dp" />
+    <Button
+        android:text="Shut up the ref"
+        android:id="@+id/btn12"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:maxWidth="65dp" />
+    <Button
+        android:text="Main Menu"
+        android:id="@+id/btnMain"
+        android:layout_columnSpan="3"
+        android:layout_gravity="center_horizontal" />
+	
+</GridLayout>
