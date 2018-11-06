@@ -24,8 +24,6 @@ namespace Soundboard
             btnExit = FindViewById<Button>(Resource.Id.btnExit);
             Intent samuelActivity = new Intent(this, typeof(SamuelActivity));
             Intent walkenActivity = new Intent(this, typeof(SpaceyActivity));
-            //Intent samuelActivity = new Intent(this, typeof(SamuelActivity));
-            //Intent samuelActivity = new Intent(this, typeof(SamuelActivity));
 
             imgBtn1.Click += delegate
             {
